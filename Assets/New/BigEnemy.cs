@@ -10,9 +10,6 @@ public class BigEnemy : Enemy
         scoreValue = bigEnemyScoreValue; // Set the score value for BigEnemy
     }
 
-    // No need to override TakeDamage() unless BigEnemy has special behavior
-
-    // If BigEnemy has unique death behavior, override the Die() method
     protected override void Die()
     {
         isDead = true;
