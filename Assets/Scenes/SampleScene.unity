@@ -372,6 +372,7 @@ MonoBehaviour:
   gameTime: 0
   gameOverUI: {fileID: 2086247280}
   finalScoreText: {fileID: 756109735}
+  gameOverSound: {fileID: 8300000, guid: a40f1ccc9ba2a424382c2fb64dcbf55e, type: 3}
 --- !u!1 &519420028
 GameObject:
   m_ObjectHideFlags: 0

@@ -77,12 +77,12 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 172626504, guid: fcbc0f906313255419595083199eac45, type: 3}
+  m_Sprite: {fileID: 886081412, guid: fcbc0f906313255419595083199eac45, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
-  m_Size: {x: 1, y: 1}
+  m_Size: {x: 1, y: 0.9444444}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
@@ -126,8 +126,8 @@ BoxCollider2D:
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 1, y: 1}
-    newSize: {x: 1, y: 1}
+    oldSize: {x: 1, y: 0.9444444}
+    newSize: {x: 1, y: 0.9444444}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
     adaptiveTiling: 0
@@ -150,12 +150,12 @@ MonoBehaviour:
   enemySpeed: 0.5
   maxHealth: 50
   damageSprites:
-  - {fileID: 172626504, guid: fcbc0f906313255419595083199eac45, type: 3}
-  - {fileID: 626918169, guid: fcbc0f906313255419595083199eac45, type: 3}
-  - {fileID: -966563848, guid: fcbc0f906313255419595083199eac45, type: 3}
-  - {fileID: 626918169, guid: fcbc0f906313255419595083199eac45, type: 3}
+  - {fileID: 886081412, guid: fcbc0f906313255419595083199eac45, type: 3}
+  - {fileID: -782292176, guid: fcbc0f906313255419595083199eac45, type: 3}
+  - {fileID: 886081412, guid: fcbc0f906313255419595083199eac45, type: 3}
+  - {fileID: 1964964744, guid: fcbc0f906313255419595083199eac45, type: 3}
   scoreValue: 10
-  corpseSprite: {fileID: 218841338, guid: fcbc0f906313255419595083199eac45, type: 3}
+  corpseSprite: {fileID: -565071332, guid: fcbc0f906313255419595083199eac45, type: 3}
   deathSound: {fileID: 8300000, guid: 5f4194282fbaa2c4f9aeeec92232ffa6, type: 3}
   bigEnemyScoreValue: 30
 --- !u!1001 &1904231248327814849

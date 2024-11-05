@@ -20,12 +20,11 @@ TextureImporter:
     externalNormalMap: 0
     heightScale: 0.25
     normalMapFilter: 0
-    flipGreenChannel: 0
   isReadable: 0
   streamingMipmaps: 0
   streamingMipmapsPriority: 0
   vTOnly: 0
-  ignoreMipmapLimit: 0
+  ignoreMasterTextureLimit: 0
   grayScaleToAlpha: 0
   generateCubemap: 6
   cubemapConvolution: 0
@@ -64,7 +63,6 @@ TextureImporter:
   textureFormatSet: 0
   ignorePngGamma: 0
   applyGammaDecoding: 0
-  swizzle: 50462976
   cookieLightType: 0
   platformSettings:
   - serializedVersion: 3
@@ -131,13 +129,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Run 0
+      name: Enemy 4_0
       rect:
         serializedVersion: 2
         x: 0
         y: 19
         width: 18
-        height: 18
+        height: 17
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -145,14 +143,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 25d9cf4e96258e547960fe218f2e9c47
-      internalID: 172626504
+      spriteID: 29f9a55848f989442a7281d30ac7109b
+      internalID: 886081412
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Run 1
+      name: Enemy 4_1
       rect:
         serializedVersion: 2
         x: 19
@@ -166,20 +164,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 71a15e905d83e2443a1d50a68998916a
-      internalID: 626918169
+      spriteID: b394359fa811f5248bba6b085039fe69
+      internalID: -782292176
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Hit
+      name: Enemy 4_2
       rect:
         serializedVersion: 2
         x: 38
         y: 19
         width: 18
-        height: 18
+        height: 17
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -187,20 +185,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 06543ad5a4adae749be8503772a376ce
-      internalID: -966563848
+      spriteID: 69df74326a7144d4e8af98276d08bea1
+      internalID: 1964964744
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Dead
+      name: Enemy 4_3
       rect:
         serializedVersion: 2
-        x: 0
+        x: 1
         y: 0
-        width: 18
-        height: 18
+        width: 16
+        height: 12
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -208,8 +206,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b0817a716fd2efb4e909520d50f2ea44
-      internalID: 218841338
+      spriteID: 77e6ae80a3580ad4ea4836e9b2a59090
+      internalID: -565071332
       vertices: []
       indices: 
       edges: []
@@ -225,12 +223,13 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      Run 0: 172626504
-      Hit: -966563848
-      Run 1: 626918169
-      Dead: 218841338
-  mipmapLimitGroupName: 
+      Enemy 4_0: 886081412
+      Enemy 4_1: -782292176
+      Enemy 4_2: 1964964744
+      Enemy 4_3: -565071332
+  spritePackingTag: 
   pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
   userData: 
   assetBundleName: 
   assetBundleVariant: 
