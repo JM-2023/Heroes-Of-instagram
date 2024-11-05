@@ -1,7 +1,6 @@
 using UnityEngine;
 using System.Collections;
 
-
 public class Enemy : MonoBehaviour
 {
     public float enemySpeed = 2f;
@@ -13,12 +12,11 @@ public class Enemy : MonoBehaviour
     protected float[] healthThresholds = { 0.75f, 0.5f, 0.25f, 0f };
     public int scoreValue = 10;
 
-    // **New Variables**
     public Sprite corpseSprite; // Assign the corpse sprite in the Inspector
     protected bool isDead = false; // Flag to check if the enemy is dead
 
     public AudioClip deathSound; // Assign in the Inspector
-    private AudioSource audioSource;
+    protected AudioSource audioSource; // Changed to protected
 
     protected virtual void Start()
     {
@@ -127,7 +125,6 @@ public class Enemy : MonoBehaviour
         {
             audioSource.PlayOneShot(deathSound);
         }
-
 
         // Change sprite to corpse sprite
         if (corpseSprite != null)

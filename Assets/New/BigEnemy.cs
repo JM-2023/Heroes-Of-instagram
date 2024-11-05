@@ -17,11 +17,11 @@ public class BigEnemy : Enemy
         // Add score
         ScoreManager.Instance.AddScore(scoreValue);
 
+        // **Play death sound**
         if (deathSound != null)
         {
             audioSource.PlayOneShot(deathSound);
         }
-
 
         // Change sprite to corpse sprite
         if (corpseSprite != null)
