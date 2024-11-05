@@ -156,7 +156,7 @@ MonoBehaviour:
   - {fileID: 1964964744, guid: fcbc0f906313255419595083199eac45, type: 3}
   scoreValue: 10
   corpseSprite: {fileID: -565071332, guid: fcbc0f906313255419595083199eac45, type: 3}
-  deathSound: {fileID: 8300000, guid: 2c4bc183a5df5aa4baf7c4fcf236a2de, type: 3}
+  deathSound: {fileID: 8300000, guid: d1bef3102d08ba944ac7bcac65733a26, type: 3}
   bigEnemyScoreValue: 30
 --- !u!1001 &1904231248327814849
 PrefabInstance:
